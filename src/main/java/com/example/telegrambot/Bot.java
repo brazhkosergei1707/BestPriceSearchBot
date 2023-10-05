@@ -83,9 +83,9 @@ public class Bot extends TelegramLongPollingBot {
                         update.getMessage().getText(),
                         message,response);
             }
+
             if(response.isEmpty()) {
                 chatService.setInitKeyboardMarkupWithMessage(message,response, chat);
-//                response.append(localeService.getDisplayName("response.text.pingIfNeeded",chat,null));
             }
 
             storage.updateChat(chat);
