@@ -205,7 +205,6 @@ public class ChatService {
 
     private void manageExitSettingAction (StringBuilder response, SendMessage message, Chat chat) {
         chat.setChatStep(VOID);
-//        keyboardService.setInitKeyboardMarkup(message, chat);
     }
     private void manageChangeLocaleAction (StringBuilder response, SendMessage message, Chat chat) {
         response.append(localeService.getDisplayName("response.text.changeLocaleAction", chat, null));

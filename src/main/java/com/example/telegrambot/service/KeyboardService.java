@@ -186,23 +186,4 @@ public class KeyboardService {
         searchRegularityButton.setCallbackData(botСallBackQuery.toString());
         return searchRegularityButton;
     }
-
-
-//    public InlineKeyboardMarkup getSearchYesNoKeyboardMarkup(Chat chat) {
-//        InlineKeyboardMarkup markupInline = getInlineKeyboardMarkup(2);
-//        markupInline.getKeyboard().get(0).add(getSearchConfirmYesNoButton(true,chat));
-//        markupInline.getKeyboard().get(0).add(getSearchConfirmYesNoButton(false,chat));
-//        markupInline.getKeyboard().get(1).add(getExitButton(chat));
-//        return markupInline;
-//    }
-//    public InlineKeyboardButton getSearchConfirmYesNoButton(Boolean confirm, Chat chat) {
-//        String text = confirm ?
-//                localeService.getDisplayName("response.button.Yes", chat,null) :
-//                localeService.getDisplayName("response.button.No", chat,null) ;
-//        InlineKeyboardButton startSearchButton = getInlineKeyboardButton();
-//        startSearchButton.setText(text);
-//        BotСallBackQuery searchConfirm = confirm ? SearchConfirmYes : SearchConfirmNo;
-//        startSearchButton.setCallbackData(searchConfirm.toString());
-//        return startSearchButton;
-//    }
 }
