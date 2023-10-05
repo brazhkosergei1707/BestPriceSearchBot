@@ -37,6 +37,7 @@ public class ChatService {
 
     public void manageChannelPost() {
         //todo
+        // check git commit
     }
 
     public void manageMessageUpdate(Chat chat, String text, SendMessage message, StringBuilder response) {
