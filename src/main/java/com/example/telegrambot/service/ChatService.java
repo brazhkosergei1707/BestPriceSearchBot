@@ -35,7 +35,7 @@ public class ChatService {
     @Autowired
     private ApplicationContext applicationContext;
 
-    public void manageChannelPost() {
+    public void manageChannelPost() { sdf
         //todo
     }
 
